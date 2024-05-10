@@ -1,0 +1,37 @@
+.container {
+  padding: 100px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+.main-section .card-items__title {
+  height: 150px;
+}
+.main-section .card-items__title h1 {
+  margin: 0;
+}
+.main-section .card-items__title p {
+  margin: 5px 0;
+  display: inline-block;
+}
+.main-section .card-items__title p span {
+  font-weight: 900;
+}
+.main-section .title__text-block p {
+  margin: 0;
+}
+.main-section .title__text-block h4 {
+  margin: 10px 0;
+}
+.main-section .main-section__footer {
+  position: absolute;
+  bottom: -300px;
+  left: 0px;
+  font-size: 580px;
+}/*# sourceMappingURL=main.css.map */

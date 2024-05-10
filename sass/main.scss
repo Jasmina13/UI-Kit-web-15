@@ -1,3 +1,33 @@
 @import "./variables/variables";
 @import "./mixin/all-mixin";
 @import "./all blocks/all-blocks";
+
+.main-section{
+    .card-items__title{
+        height: 150px;
+        h1{
+            margin: 0;
+        }
+        p{
+            margin: 5px 0;
+            display: inline-block;
+            span{
+                font-weight: 900;
+            }
+        }
+    }
+    .title__text-block{
+        p{
+            margin: 0;
+        }
+        h4{
+            margin:10px 0;
+        }
+    }
+    .main-section__footer{
+        position: absolute;
+        bottom: -300px;
+        left: 0px;
+        font-size: 580px;
+    }
+}
